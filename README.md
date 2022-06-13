@@ -1,1 +1,0 @@
-https://GITHUB-5137550.github.io/rsschool-cv/
