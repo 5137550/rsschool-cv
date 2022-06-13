@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Anton;
+    src: url(assets/font/Anton-Regular.ttf);
+}
+@font-face {
+    font-family:Loan ;
+    src: url(assets/font/Joan-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+  .container {
+    max-width: 1440px;
+    margin: auto;
+  }
+ 
+h1, h2 {
+    font: bold 32px Anton, sans-serif; 
+    text-align: center;
+}
+
+p {
+    font: italic 20px Joan, sans-serif;
+    text-align: center;
+}
+li {
+    font: italic 20px Joan, sans-serif;
+    text-align: left;
+}
+
+    .main {
+      width: auto;
+      background-color: #ecd6ce;
+      max-width: 1440px;
+      margin: auto;
+  }
+    .footer {
+        background-color:#8f7b72;
+        text-align: left;
+        line-height: 25px;
+        max-width: 1440px;
+        margin: auto
+       
+      }
+    .rsphoto {
+      float: right;
+    }
+      .nav-block {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          list-style: none; 
+          background-color: #8f7b72;
+         
+
+        }
+      .nav-link {
+          padding: 0 20px;
+          line-height: 50px;
+          color: black;
+      }
+
+      /*photo border*/
+      .radius {
+        border-radius: 50%;
+        border: 3x solid #7e533f;
+        text-align: center;
+    }
+    @media (max-width: 768px) {
+      .section {
+        width: 100%;
+      }
+    }
